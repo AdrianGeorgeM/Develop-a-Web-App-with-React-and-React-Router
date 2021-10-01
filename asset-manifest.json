@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/https://github.com/AdrianGeorgeM/Project-8-React-App/static/css/main.a617e044.chunk.css",
+    "main.js": "/https://github.com/AdrianGeorgeM/Project-8-React-App/static/js/main.b1bae93d.chunk.js",
+    "main.js.map": "/https://github.com/AdrianGeorgeM/Project-8-React-App/static/js/main.b1bae93d.chunk.js.map",
+    "runtime-main.js": "/https://github.com/AdrianGeorgeM/Project-8-React-App/static/js/runtime-main.018f8ef7.js",
+    "runtime-main.js.map": "/https://github.com/AdrianGeorgeM/Project-8-React-App/static/js/runtime-main.018f8ef7.js.map",
+    "static/js/2.b9bd7cb3.chunk.js": "/https://github.com/AdrianGeorgeM/Project-8-React-App/static/js/2.b9bd7cb3.chunk.js",
+    "static/js/2.b9bd7cb3.chunk.js.map": "/https://github.com/AdrianGeorgeM/Project-8-React-App/static/js/2.b9bd7cb3.chunk.js.map",
+    "static/js/3.467955eb.chunk.js": "/https://github.com/AdrianGeorgeM/Project-8-React-App/static/js/3.467955eb.chunk.js",
+    "static/js/3.467955eb.chunk.js.map": "/https://github.com/AdrianGeorgeM/Project-8-React-App/static/js/3.467955eb.chunk.js.map",
+    "index.html": "/https://github.com/AdrianGeorgeM/Project-8-React-App/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/https://github.com/AdrianGeorgeM/Project-8-React-App/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.b9bd7cb3.chunk.js.LICENSE.txt": "/https://github.com/AdrianGeorgeM/Project-8-React-App/static/js/2.b9bd7cb3.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/https://github.com/AdrianGeorgeM/Project-8-React-App/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.018f8ef7.js",
+    "static/js/2.b9bd7cb3.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.b1bae93d.chunk.js"
+  ]
+}
