@@ -1,4 +1,4 @@
-import heroHome from "./Assets/logo.svg";
+import heroHome from "./Assets/header_logo.svg";
 import "./Styles/App.css";
 
 function App() {
