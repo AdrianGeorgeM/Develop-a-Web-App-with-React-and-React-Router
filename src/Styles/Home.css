@@ -1,0 +1,9 @@
+.home {
+  margin: 0 20px 0 20px;
+}
+
+@media screen and (min-width: 1000px) {
+  .home {
+    margin: 0 100px 0 100px;
+  }
+}
