@@ -1,6 +1,7 @@
 import heroHome from "./Assets/header_logo.svg";
 import React from "react";
 import Header from "./Components/Header";
+import Banner from "./Components/Banner";
 import { BrowserRouter as Router } from "react-router-dom";
 //A <BrowserRouter> uses regular URL paths. These are generally the best-looking URLs
 import "./Styles/App.css";
@@ -10,6 +11,7 @@ function App() {
     <div className='container'>
       <Router>
         <Header />
+        <Banner />
       </Router>
     </div>
   );
