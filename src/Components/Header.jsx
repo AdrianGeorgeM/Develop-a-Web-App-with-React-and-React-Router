@@ -34,7 +34,7 @@ class Header extends Component {
               <NavLink
                 //<NavLink> A special version of the <Link> that will add styling attributes to the rendered element when it matches the current URL.
                 exact //exact: boolWhen true, the active class/style will only be applied if the location is matched exactly.
-                activeClassName='navbar__link--active'
+                activeClassName='navbar__link'
                 className='navbar__link'
                 activeStyle={
                   {

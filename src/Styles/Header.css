@@ -1,16 +1,17 @@
 header {
   display: flex;
   justify-content: space-between;
-  margin: 20px 20px 0 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
+
 .header__logo {
   height: 40px;
 }
-.navbar__link {
-  text-decoration: none;
-}
 nav {
   display: flex;
+  align-items: center;
 }
 .navbar__list {
   align-items: center;
@@ -20,30 +21,38 @@ nav {
   font-weight: 500;
   text-decoration: none;
   display: flex;
-  font-size: 24px;
+  font-size: 12px;
   line-height: 17px;
   text-transform: uppercase;
   margin-bottom: 0;
   margin-top: 0;
 }
-.navbar__list-item {
-  margin-left: 70px;
+
+.navbar__link {
+  margin-left: 20px;
   color: #ff6060;
+  text-decoration: none;
 }
 
 .navbar__link--active {
   text-decoration: underline;
   color: #ff6060;
-  font-size: 12px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
   header {
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 40px;
   }
-  nav {
-    align-items: stretch;
+  .header__logo {
+    height: 62px;
+  }
+  .navbar__list {
+    text-transform: none;
+    font-size: 33px;
+  }
+  .navbar__list-item {
+    margin-left: 70px;
   }
 }
