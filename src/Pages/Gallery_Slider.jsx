@@ -7,28 +7,32 @@ import GallerySlider from "../Styles/GallerySlider.css";
 export class Gallery_Slider extends Component {
   constructor(props) {
     super(props);
-    this.state = { current: 0 };
+    this.state = { currentPicture: 0 }; //state current currentPicture
     this.picture = this.props.apartment.pictures;
     this.imagesLength = this.picture.length;
   }
   // if the user is on the last image in the gallery and clicks on Next Image, it  displays the first image
   nextPicture = () => {
+    //setState() is the only legitimate way to update state after the initial state setup
+    //Here, we’re passing an object to setState(). The object contains the part of the state we want to update
     this.setState(
-      this.state.current === this.picture.length - 1
-        ? { current: 0 }
-        : { current: this.state.current + 1 }
+      this.state.currentPicture === this.picture.length - 1
+        ? { currentPicture: 0 }
+        : { currentPicture: this.state.currentPicture + 1 }
     );
-    // Logic explained if state curent is ===  to how max images of every ap(this.picture.length - 1),it
-    //should go to first ap{current:0}
+    // Logic explained if state curent currentPicture is ===  to how max images of every ap(this.picture.length - 1),it
+    //should go to first ap{currentPicture:0}
     // console.log(this.state);
     // console.log(this.picture.length);
   };
 
   prevPicture = () => {
+    //setState() is the only legitimate way to update state after the initial state setup
+    //Here, we’re passing an object to setState(). The object contains the part of the state we want to update
     this.setState(
-      this.state.current === 0
-        ? { current: this.picture.length - 1 }
-        : { current: this.state.current - 1 }
+      this.state.currentPicture === 0
+        ? { currentPicture: this.picture.length - 1 }
+        : { currentPicture: this.state.currentPicture - 1 }
     );
     console.log(this.state);
     console.log(this.picture.length);
@@ -71,7 +75,9 @@ export class Gallery_Slider extends Component {
               className={
                 //conditional (ternary) operator
                 //condition ? exprIfTrue : exprIfFalse
-                this.state.current === index ? "activeState" : "inactiveState"
+                this.state.currentPicture === index
+                  ? "activeState"
+                  : "inactiveState"
               }
               //   Each child in a list should have a unique "key" prop.
               //   Keys help React identify which items have changed, are added, or are removed. Keys should be given to the elements inside the array to give the elements a stable identity
