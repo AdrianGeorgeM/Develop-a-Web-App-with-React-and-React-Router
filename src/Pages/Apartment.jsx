@@ -56,15 +56,14 @@ export class Apartment extends Component {
     // );
 
     this.idParam = this.props.match.params.id;
-    this.apartment = data.find((entry) => entry.id === this.idParam);
+    this.apartment = data.find((datas) => datas.id === this.idParam);
     // if (!data.some((app) => app.id === this.idParam))
     //   return <Redirect to='/404' />;
   }
   render() {
     return (
       <div className='apartment'>
-        <h1>{this.apartment.host.name}</h1>
-        <img src={this.apartment.pictures[0]} alt='' />
+        <Gallery_Slider apartment={this.apartment} />
       </div>
     );
   }

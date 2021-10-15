@@ -1,0 +1,72 @@
+.apartment {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.gallery__slider {
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery__image {
+  height: 255px;
+  width: calc(100vw - 40px);
+  object-fit: cover;
+  border-radius: 10px;
+}
+.activeState {
+  display: block;
+  height: 255px;
+}
+.inactiveState {
+  display: none;
+}
+.arrow-left {
+  position: absolute;
+  width: 12px;
+  height: 20px;
+  z-index: 10;
+  left: 6px;
+  cursor: pointer;
+}
+.arrow-right {
+  position: absolute;
+  width: 12px;
+  height: 20px;
+  z-index: 10;
+  right: 6px;
+  cursor: pointer;
+}
+@media screen and (min-width: 1000px) {
+  .apartment {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .gallery__slider {
+    margin-top: 20px;
+  }
+
+  .gallery__image {
+    border-radius: 25px;
+    height: 415px;
+    width: calc(100vw - 200px);
+  }
+  .activeState {
+    height: 415px;
+  }
+  .arrow-left {
+    top: 168px;
+    left: 24px;
+    width: 47px;
+    height: 80px;
+  }
+  .arrow-right {
+    top: 168px;
+    right: 24px;
+    width: 47px;
+    height: 80px;
+  }
+}
