@@ -1,6 +1,7 @@
 import "../Styles/Header.css";
 import header_logo from "../Assets/header_logo.svg";
 import { NavLink } from "react-router-dom";
+import About from "../Pages/About";
 import React, { Component } from "react"; // Destructuring assignment
 
 class Header extends Component {
@@ -42,7 +43,7 @@ class Header extends Component {
                     // textDecoration: "underline",
                   }
                 }
-                to='/' //to: object A string representation of the Link location, created by concatenating the location’s pathname, search, and hash properties.
+                to='/about' //to: object A string representation of the Link location, created by concatenating the location’s pathname, search, and hash properties.
               >
                 About
               </NavLink>

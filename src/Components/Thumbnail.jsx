@@ -15,7 +15,7 @@ export class Thumbnail extends Component {
     // const { title, cover, id,type } = this.props;
     return (
       <li className='thumb__apartment'>
-        <Link className='thumb__link'>
+        <Link to={`/apartment/${this.id}`} className='thumb__link'>
           <div className='thumb__container'>
             <img src={this.cover} alt='' className='thumb__image' />
             <div className='thumb__background'></div>
