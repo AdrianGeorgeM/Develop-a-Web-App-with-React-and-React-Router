@@ -13,6 +13,7 @@ import Apartment from "./Pages/Apartment";
 import Gallery from "./Pages/Gallery";
 import Thumbnail from "./Components/Thumbnail";
 import Footer from "./Components/Footer";
+import Error404 from "./Pages/Eroor404";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route exact path='/' component={Home} />
             <Route exact path='/about' component={About} />
             <Route exact path='/apartment/:id' component={Apartment} />
+            <Route path='*' component={Error404} />
           </Switch>
         </div>
 

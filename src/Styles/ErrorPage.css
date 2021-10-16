@@ -1,0 +1,45 @@
+.error-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Montserrat;
+  font-style: normal;
+  color: #ff6060;
+}
+
+.error__title {
+  text-align: center;
+  flex-basis: 100%;
+  font-size: 96px;
+  line-height: 137px;
+  font-weight: bold;
+  margin: 0;
+}
+.error-tagline {
+  text-align: center;
+  flex-basis: 100%;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 11px 0 0 0;
+  padding: 0 80px;
+}
+.error__link {
+  margin-top: 132px;
+  color: #ff6060;
+  font-size: 14px;
+  line-height: 20px;
+}
+@media screen and (min-width: 1000px) {
+  .error__title {
+    font-size: 288px;
+    line-height: 411px;
+  }
+  .error-tagline {
+    font-size: 36px;
+    line-height: 51px;
+  }
+  .error__link {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
