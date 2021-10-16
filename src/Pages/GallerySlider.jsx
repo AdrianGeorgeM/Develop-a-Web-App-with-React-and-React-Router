@@ -85,11 +85,7 @@ export class Gallery_Slider extends Component {
 
               key={index}
             >
-              <img
-                src={photos}
-                alt='Apartment Photo'
-                className='gallery__image'
-              />
+              <img src={photos} alt='Apartment' className='gallery__image' />
             </div>
           );
         })}
