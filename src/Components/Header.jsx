@@ -1,7 +1,7 @@
 import "../Styles/Header.css";
 import header_logo from "../Assets/header_logo.svg";
 import { NavLink } from "react-router-dom";
-import About from "../Pages/About";
+// import About from "../Pages/About";
 import React, { Component } from "react"; // Destructuring assignment
 
 class Header extends Component {

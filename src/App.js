@@ -1,8 +1,8 @@
-import heroHome from "./Assets/header_logo.svg";
-import ReactDOM from "react-dom";
+// import heroHome from "./Assets/header_logo.svg";
+// import ReactDOM from "react-dom";
 import React from "react";
 import Header from "./Components/Header";
-import Banner from "./Components/Banner";
+// import Banner from "./Components/Banner";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import { Route, Switch } from "react-router-dom";
@@ -10,8 +10,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 //A <BrowserRouter> uses regular URL paths. These are generally the best-looking URLs
 import "./Styles/App.css";
 import Apartment from "./Pages/Apartment";
-import Gallery from "./Pages/Gallery";
-import Thumbnail from "./Components/Thumbnail";
+// import Gallery from "./Pages/Gallery";
+// import Thumbnail from "./Components/Thumbnail";
 import Footer from "./Components/Footer";
 import Error404 from "./Pages/Eroor404";
 
@@ -38,9 +38,3 @@ function App() {
 }
 
 export default App;
-{
-  /* <Router>
-  <Header />
-  <Home />
-</Router>; */
-}

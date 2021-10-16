@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Banner from "../Components/Banner";
-import Header from "../Components/Header";
+// import Header from "../Components/Header";
 import Gallery from "../Pages/Gallery";
 import "../Styles/Home.css";
 

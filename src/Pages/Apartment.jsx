@@ -1,15 +1,15 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import { withRouter } from "react-router-dom";
-import { Redirect } from "react-router-dom";
-import Gallery from "./Gallery";
-import Home from "./Home";
+// import ReactDOM from "react-dom";
+
+// import { Redirect } from "react-router-dom";
+// import Gallery from "./Gallery";
+// import Home from "./Home";
 import data from "../Assets/data.json";
 import Gallery_Slider from "./Gallery_Slider";
-import Gallery_Info from "./Gallery_Info";
-import PropTypes from "prop-types";
-import Apartment_Info from "../Styles/Apartment_Info.css";
-import Tags from "../Styles/Tags.css";
+// import Gallery_Info from "./Gallery_Info";
+// import PropTypes from "prop-types";
+import "../Styles/Apartment_Info.css";
+import "../Styles/Tags.css";
 import star_blank from "../Assets/star_blank.svg";
 import star_filled from "../Assets/star_filled.svg";
 import Dropdown from "../Components/Dropdown";
@@ -72,7 +72,7 @@ export class Apartment extends Component {
     return (
       <div className='apartment'>
         <Gallery_Slider apartment={this.apartment} />
-        {/* <Gallery_Info apartment={this.apartment} /> */}
+
         <main>
           <div className='info'>
             <div className='info__header'>

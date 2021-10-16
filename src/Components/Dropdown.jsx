@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import arrowRight from "../Assets/arrowRight.svg";
-import Dropdowns from "../Styles/Dropdowns.css";
-import PropTypes from "prop-types";
+import "../Styles/Dropdowns.css";
+// import PropTypes from "prop-types";
 
 export class Dropdown extends Component {
   constructor(props) {

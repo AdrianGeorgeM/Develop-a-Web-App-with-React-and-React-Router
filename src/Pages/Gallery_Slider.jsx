@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import arrowLeft from "../Assets/arrowLeft.svg";
 import arrowRight from "../Assets/arrowRight.svg";
-import data from "../Assets/data.json";
-import GallerySlider from "../Styles/GallerySlider.css";
+import "../Assets/data.json";
+import "../Styles/GallerySlider.css";
 
 export class Gallery_Slider extends Component {
   constructor(props) {
@@ -69,7 +69,7 @@ export class Gallery_Slider extends Component {
           onClick={this.nextPicture}
         ></img>
 
-        {this.picture.map((images, index) => {
+        {this.picture.map((photos, index) => {
           return (
             <div
               className={
@@ -86,7 +86,7 @@ export class Gallery_Slider extends Component {
               key={index}
             >
               <img
-                src={images}
+                src={photos}
                 alt='Apartment Photo'
                 className='gallery__image'
               />

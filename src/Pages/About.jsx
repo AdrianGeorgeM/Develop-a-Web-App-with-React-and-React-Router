@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Banner from "../Components/Banner";
 import Dropdown from "../Components/Dropdown";
-import AboutPage from "../Styles/AboutPage.css";
+import "../Styles/AboutPage.css";
 
 export class About extends Component {
   constructor(props) {
