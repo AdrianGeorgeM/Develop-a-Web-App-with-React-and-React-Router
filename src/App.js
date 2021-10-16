@@ -12,6 +12,7 @@ import "./Styles/App.css";
 import Apartment from "./Pages/Apartment";
 import Gallery from "./Pages/Gallery";
 import Thumbnail from "./Components/Thumbnail";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -20,11 +21,15 @@ function App() {
         <Header />
 
         {/* Switch as soon as it goes to one route and it matches the url it gonna stop and only render that compoment*/}
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/about' component={About} />
-          <Route exact path='/apartment/:id' component={Apartment} />
-        </Switch>
+        <div>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/apartment/:id' component={Apartment} />
+          </Switch>
+        </div>
+
+        <Footer />
       </Router>
     </div>
   );
