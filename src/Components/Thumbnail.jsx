@@ -5,6 +5,9 @@ import "../Styles/Thumbnail.css";
 export class Thumbnail extends Component {
   constructor(props) {
     //   Props stands for “properties,” and they are used in a React application to send data from one React component to another React component.
+    // Since it is a class, i need to use this to refer to props
+    // And of course, i can use destructuring to get cover inside props while utilizing class-based components
+    // const { title, cover, id,type } = this.props;
     super(props);
     this.id = this.props.id;
     this.cover = this.props.cover;

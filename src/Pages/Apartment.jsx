@@ -5,7 +5,7 @@ import React, { Component } from "react";
 // import Gallery from "./Gallery";
 // import Home from "./Home";
 import data from "../Assets/data.json";
-import Gallery_Slider from "./Gallery_Slider";
+import GallerySlider from "./GallerySlider";
 // import Gallery_Info from "./Gallery_Info";
 // import PropTypes from "prop-types";
 import "../Styles/Apartment_Info.css";
@@ -71,7 +71,7 @@ export class Apartment extends Component {
     const range = Array.from(Array(5).keys());
     return (
       <div className='apartment'>
-        <Gallery_Slider apartment={this.apartment} />
+        <GallerySlider apartment={this.apartment} />
 
         <main>
           <div className='info'>

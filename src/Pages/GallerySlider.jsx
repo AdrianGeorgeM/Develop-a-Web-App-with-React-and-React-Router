@@ -8,22 +8,22 @@ export class Gallery_Slider extends Component {
   constructor(props) {
     super(props);
     this.state = { currentPicture: 0 }; //state current currentPicture
-    this.picture = this.props.apartment.pictures;
-    this.imagesLength = this.picture.length;
+    this.pictures = this.props.apartment.pictures;
+    this.imagesLength = this.pictures.length;
   }
   // if the user is on the last image in the gallery and clicks on Next Image, it  displays the first image
   nextPicture = () => {
     //setState() is the only legitimate way to update state after the initial state setup
     //Here, we’re passing an object to setState(). The object contains the part of the state we want to update
     this.setState(
-      this.state.currentPicture === this.picture.length - 1
+      this.state.currentPicture === this.pictures.length - 1
         ? { currentPicture: 0 }
         : { currentPicture: this.state.currentPicture + 1 }
     );
-    // Logic explained if state curent currentPicture is ===  to how max images of every ap(this.picture.length - 1),it
+    // Logic explained if state curent currentPicture is ===  to how max images of every ap(this.pictures.length - 1),it
     //should go to first ap{currentPicture:0}
     // console.log(this.state);
-    // console.log(this.picture.length);
+    // console.log(this.pictures.length);
   };
 
   prevPicture = () => {
@@ -31,11 +31,11 @@ export class Gallery_Slider extends Component {
     //Here, we’re passing an object to setState(). The object contains the part of the state we want to update
     this.setState(
       this.state.currentPicture === 0
-        ? { currentPicture: this.picture.length - 1 }
+        ? { currentPicture: this.pictures.length - 1 }
         : { currentPicture: this.state.currentPicture - 1 }
     );
     console.log(this.state);
-    console.log(this.picture.length);
+    console.log(this.pictures.length);
   };
   render() {
     return (
@@ -69,7 +69,7 @@ export class Gallery_Slider extends Component {
           onClick={this.nextPicture}
         ></img>
 
-        {this.picture.map((photos, index) => {
+        {this.pictures.map((photos, index) => {
           return (
             <div
               className={

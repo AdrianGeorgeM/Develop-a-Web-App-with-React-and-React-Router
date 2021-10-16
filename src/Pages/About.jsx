@@ -22,6 +22,7 @@ export class About extends Component {
       <div>
         <Banner page='about' />
         <ul className='about__main '>
+          {/* Object.keys() method returns an array of keys. */}
           {Object.keys(this.textInput).map((key, index) => {
             return (
               <li key={key}>
