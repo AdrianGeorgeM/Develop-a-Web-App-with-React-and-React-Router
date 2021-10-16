@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import ErrorPage from "../Styles/ErrorPage.css";
 
 export class Eroor404 extends Component {
   render() {
     return (
       <div className='error-main'>
-        <p className='error__title'>404</p>
-        <p className='error-tagline'>
+        <div className='error__title'>404</div>
+        <div className='error-tagline'>
           Oops! It looks like this page doesn't exist.
-        </p>
+        </div>
         <Link to='/' className='error__link'>
           Go back to home page
         </Link>
