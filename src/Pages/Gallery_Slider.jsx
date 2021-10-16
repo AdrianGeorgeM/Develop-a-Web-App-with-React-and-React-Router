@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import arrowLeft from "../Assets/arrow-left.svg";
-import arrowRight from "../Assets/arrow-right.svg";
+import arrowLeft from "../Assets/arrowLeft.svg";
+import arrowRight from "../Assets/arrowRight.svg";
 import data from "../Assets/data.json";
 import GallerySlider from "../Styles/GallerySlider.css";
 
@@ -42,7 +42,7 @@ export class Gallery_Slider extends Component {
       <div className='gallery__slider'>
         <img
           src={arrowLeft}
-          alt='arrow-left'
+          alt='arrowLeft'
           //If there is only one image, the Next and Previous buttons do not appear
           //   "id": "cb02d69b",
           // "title": "Beautiful Rivoli Apartment"
@@ -56,7 +56,7 @@ export class Gallery_Slider extends Component {
         ></img>
         <img
           src={arrowRight}
-          alt='arrow-right'
+          alt='arrowRight'
           // If there is only one image, the Next and Previous buttons do not appear
           //   "id": "cb02d69b",
           // "title": "Beautiful Rivoli Apartment"

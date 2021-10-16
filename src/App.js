@@ -18,6 +18,7 @@ function App() {
     <div className='container'>
       <Router>
         <Header />
+
         {/* Switch as soon as it goes to one route and it matches the url it gonna stop and only render that compoment*/}
         <Switch>
           <Route exact path='/' component={Home} />

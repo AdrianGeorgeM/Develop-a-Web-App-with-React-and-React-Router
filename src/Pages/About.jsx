@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import Header from "../Components/Header";
+import Banner from "../Components/Banner";
+import Dropdown from "../Components/Dropdown";
+import AboutPage from "../Styles/AboutPage.css";
 
 export class About extends Component {
   constructor(props) {
@@ -18,7 +20,20 @@ export class About extends Component {
   render() {
     return (
       <div>
-        <h1>ABOUT PAGE</h1>
+        <Banner page='about' />
+        <ul className='about__main '>
+          {Object.keys(this.textInput).map((key, index) => {
+            return (
+              <li key={key}>
+                <Dropdown
+                  title={key}
+                  content={this.textInput[key]}
+                  page='about'
+                />
+              </li>
+            );
+          })}
+        </ul>
       </div>
     );
   }
