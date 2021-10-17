@@ -20,7 +20,7 @@ function App() {
     <div className='container'>
       <Router>
         <Header />
-
+        ss s
         {/* Switch as soon as it goes to one route and it matches the url it gonna stop and only render that compoment*/}
         <div>
           <Switch>
@@ -30,7 +30,6 @@ function App() {
             <Route path='*' component={Error404} />
           </Switch>
         </div>
-
         <Footer />
       </Router>
     </div>
