@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/Project-8-React-App/static/css/main.89f865c5.chunk.css",
-    "main.js": "/Project-8-React-App/static/js/main.1b00fd6c.chunk.js",
-    "main.js.map": "/Project-8-React-App/static/js/main.1b00fd6c.chunk.js.map",
-    "runtime-main.js": "/Project-8-React-App/static/js/runtime-main.2504f9c0.js",
-    "runtime-main.js.map": "/Project-8-React-App/static/js/runtime-main.2504f9c0.js.map",
-    "static/js/2.86f05295.chunk.js": "/Project-8-React-App/static/js/2.86f05295.chunk.js",
-    "static/js/2.86f05295.chunk.js.map": "/Project-8-React-App/static/js/2.86f05295.chunk.js.map",
-    "static/js/3.28fb7927.chunk.js": "/Project-8-React-App/static/js/3.28fb7927.chunk.js",
-    "static/js/3.28fb7927.chunk.js.map": "/Project-8-React-App/static/js/3.28fb7927.chunk.js.map",
+    "main.css": "/Project-8-React-App/static/css/main.0a1fb399.chunk.css",
+    "main.js": "/Project-8-React-App/static/js/main.9083c714.chunk.js",
+    "main.js.map": "/Project-8-React-App/static/js/main.9083c714.chunk.js.map",
+    "runtime-main.js": "/Project-8-React-App/static/js/runtime-main.109ca5cd.js",
+    "runtime-main.js.map": "/Project-8-React-App/static/js/runtime-main.109ca5cd.js.map",
+    "static/js/2.e541ed52.chunk.js": "/Project-8-React-App/static/js/2.e541ed52.chunk.js",
+    "static/js/2.e541ed52.chunk.js.map": "/Project-8-React-App/static/js/2.e541ed52.chunk.js.map",
+    "static/js/3.dd0fc05b.chunk.js": "/Project-8-React-App/static/js/3.dd0fc05b.chunk.js",
+    "static/js/3.dd0fc05b.chunk.js.map": "/Project-8-React-App/static/js/3.dd0fc05b.chunk.js.map",
     "index.html": "/Project-8-React-App/index.html",
-    "static/css/main.89f865c5.chunk.css.map": "/Project-8-React-App/static/css/main.89f865c5.chunk.css.map",
-    "static/js/2.86f05295.chunk.js.LICENSE.txt": "/Project-8-React-App/static/js/2.86f05295.chunk.js.LICENSE.txt",
-    "static/media/arrow-left.19918a16.svg": "/Project-8-React-App/static/media/arrow-left.19918a16.svg",
-    "static/media/arrow-right.8d9545cb.svg": "/Project-8-React-App/static/media/arrow-right.8d9545cb.svg",
+    "static/css/main.0a1fb399.chunk.css.map": "/Project-8-React-App/static/css/main.0a1fb399.chunk.css.map",
+    "static/js/2.e541ed52.chunk.js.LICENSE.txt": "/Project-8-React-App/static/js/2.e541ed52.chunk.js.LICENSE.txt",
+    "static/media/arrowLeft.19918a16.svg": "/Project-8-React-App/static/media/arrowLeft.19918a16.svg",
+    "static/media/arrowRight.8d9545cb.svg": "/Project-8-React-App/static/media/arrowRight.8d9545cb.svg",
+    "static/media/footer_logo.879b5009.svg": "/Project-8-React-App/static/media/footer_logo.879b5009.svg",
     "static/media/header_logo.c9333877.svg": "/Project-8-React-App/static/media/header_logo.c9333877.svg",
-    "static/media/home_banner.024f945a.png": "/Project-8-React-App/static/media/home_banner.024f945a.png"
+    "static/media/home_banner.024f945a.png": "/Project-8-React-App/static/media/home_banner.024f945a.png",
+    "static/media/star_blank.7e4ba603.svg": "/Project-8-React-App/static/media/star_blank.7e4ba603.svg",
+    "static/media/star_filled.6430150c.svg": "/Project-8-React-App/static/media/star_filled.6430150c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2504f9c0.js",
-    "static/js/2.86f05295.chunk.js",
-    "static/css/main.89f865c5.chunk.css",
-    "static/js/main.1b00fd6c.chunk.js"
+    "static/js/runtime-main.109ca5cd.js",
+    "static/js/2.e541ed52.chunk.js",
+    "static/css/main.0a1fb399.chunk.css",
+    "static/js/main.9083c714.chunk.js"
   ]
 }
