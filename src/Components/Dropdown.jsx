@@ -1,71 +1,38 @@
-import React, { Component } from "react";
-import arrowRight from "../Assets/arrowRight.svg";
-import "../Styles/Dropdowns.css";
-// import PropTypes from "prop-types";
+import React, { useState } from 'react';
+import arrowRight from '../Assets/arrowRight.svg';
+import '../Styles/Dropdowns.css';
 
-export class Dropdown extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      open: false,
-    };
-    this.title = this.props.title;
-    this.page = this.props.page; //content
-  }
-  toggleList = () => {
-    this.setState(this.state.open === false ? { open: true } : { open: false });
-  };
+const Dropdown = ({ title, page, content }) => {
+	const [open, setOpen] = useState(false);
 
-  render() {
-    return (
-      <div className='dropdown__item'>
-        {/* <h3 onClick={() => this.toggleList()}>
-          {console.log(this.title)}
-          <span
-            className={
-              this.state.open ? "fas fa-chevron-up" : "fas fa-chevron-down"
-            }
-          ></span>
-        </h3> */}
+	const toggleList = () => {
+		setOpen(!open);
+	};
 
-        <div
-          className={`dropdown__item--title ${this.page}`}
-          onClick={this.toggleList}
-        >
-          <p>{this.title}</p>
-          <img
-            src={arrowRight}
-            alt=''
-            className={
-              this.state.open === false
-                ? "dropdown__item--arrow-up"
-                : "dropdown__item--arrow-down"
-            }
-          ></img>
-        </div>
+	return (
+		<div className='dropdown__item'>
+			<div className={`dropdown__item--title ${page}`} onClick={toggleList}>
+				<p>{title}</p>
+				<img
+					src={arrowRight}
+					alt=''
+					className={
+						open === false ? 'dropdown__item--arrow-up' : 'dropdown__item--arrow-down'
+					}
+				/>
+			</div>
 
-        {Array.isArray(this.page) ? (
-          <ul
-            className={`dropdown-list ${
-              this.state.open ? "drop-open" : "drop-close"
-            }`}
-          >
-            {this.page.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-        ) : (
-          <p
-            className={`dropdown-list ${
-              this.state.open ? "drop-open" : "drop-close"
-            }`}
-          >
-            {this.props.content}
-          </p>
-        )}
-      </div>
-    );
-  }
-}
+			{Array.isArray(page) ? (
+				<ul className={`dropdown-list ${open ? 'drop-open' : 'drop-close'}`}>
+					{page.map((item, index) => (
+						<li key={index}>{item}</li>
+					))}
+				</ul>
+			) : (
+				<p className={`dropdown-list ${open ? 'drop-open' : 'drop-close'}`}>{content}</p>
+			)}
+		</div>
+	);
+};
 
 export default Dropdown;
