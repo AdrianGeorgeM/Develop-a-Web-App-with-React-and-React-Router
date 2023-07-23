@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../Styles/ErrorPage.css';
 
-const Eroor404 = () => {
+const Error404 = () => {
 	return (
 		<div className='error-main'>
 			<div className='error__title'>404</div>
@@ -14,4 +14,4 @@ const Eroor404 = () => {
 	);
 };
 
-export default Eroor404;
+export default Error404;

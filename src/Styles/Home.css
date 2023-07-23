@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 .home {
   margin: 0 20px 0 20px;
-  background-color: #f7f7f7; /* subtle background color */
+ 
+  font-family: 'Roboto', sans-serif; /* New font */
 }
+
+
 
 @media screen and (min-width: 1000px) {
   .home {
