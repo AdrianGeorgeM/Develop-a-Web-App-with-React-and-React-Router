@@ -6,7 +6,7 @@ import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import './Styles/App.css';
 import Apartment from './Pages/Apartment';
 import Footer from './Components/Footer';
-import Error404 from './Pages/Error404';
+import Error404 from './Pages/Eroor404';
 
 function App() {
 	return (
