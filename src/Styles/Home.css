@@ -1,5 +1,6 @@
 .home {
   margin: 0 20px 0 20px;
+  background-color: #f7f7f7; /* subtle background color */
 }
 
 @media screen and (min-width: 1000px) {

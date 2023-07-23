@@ -6,11 +6,11 @@ import '../Styles/Gallery.css';
 const Gallery = () => {
 	return (
 		<main>
-			<ul className='gallery__main'>
-				{data.map((datas, index) => (
-					<Thumbnail title={datas.title} cover={datas.cover} id={datas.id} key={index} />
+			<section className='gallery'>
+				{data.map((item, index) => (
+					<Thumbnail key={index} {...item} />
 				))}
-			</ul>
+			</section>
 		</main>
 	);
 };
